@@ -6,7 +6,7 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="block mx-auto mt-[5rem] w-[60%] relative">
+      <div className="block mx-auto mt-[5rem] w-[60%] relative mb-[7.5rem]">
         <Image src={sp} className="opacity-60	rounded-2xl" />
         <div className="absolute text-3xl ml-[10vw] bottom-[8vh] font-bold leading-8	">
           never <br /> stop <br /> building.
@@ -29,6 +29,10 @@ const Home: NextPage = () => {
             writings
           </Link>
           </div>
+          
+        </div>
+        <div className="absolute mt-[4rem] ml-[10vw]">
+          hi , i'm anurag. i build beautiful things. <br />
         </div>
       </div>
     </>
