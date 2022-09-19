@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import sp from "../img/sp.webp";
+import ocean from "../img/ocean.jpg";
 import Link from "next/link";
 
-const Home: NextPage = () => {
+const Builds: NextPage = () => {
   return (
     <>
       <div className="block mx-auto mt-[5rem] w-[60%] relative">
-        <Image src={sp} className="opacity-60	rounded-2xl" />
+        <Image src={ocean} className="opacity-40 rounded-2xl" />
         <div className="absolute text-3xl ml-[10vw] bottom-[8vh] font-bold leading-8	">
           never <br /> stop <br /> building.
         </div>
@@ -35,4 +35,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Builds;
