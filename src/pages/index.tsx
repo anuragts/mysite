@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           
         </div>
         <div className="absolute mt-[4rem] ml-[10vw]">
-          hi , i'm anurag. i build beautiful things. <br />
+          hi , i&apos;m anurag. i build beautiful things. <br />
         </div>
       </div>
     </>
