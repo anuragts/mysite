@@ -17,7 +17,6 @@ module.exports = {
 		
 				md: "768px",
 		
-		
 				lg: "1350px",
 			  },
 
