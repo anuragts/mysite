@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import sp from "../img/sp.webp";
+import sp from "../img/sp.png";
 import Link from "next/link";
 
 const Home: NextPage = () => {
