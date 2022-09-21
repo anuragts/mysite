@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[7.5rem]">
-        <Image src={sp}  className="opacity-60 md:rounded-2xl" />
+        <Image src={sp} alt="Space"  className="opacity-60 md:rounded-2xl" />
         <div className="absolute  text-xl md:text-3xl ml-[10vw] bottom-[2vh] md:bottom-[8vh] font-bold leading-6 md:leading-8	">
           never <br /> stop <br /> building.
         </div>
