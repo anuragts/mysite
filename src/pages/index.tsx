@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import sp from "../img/sp.png";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
@@ -20,33 +21,21 @@ const Home: NextPage = () => {
         </div>
         <div className="absolute flex flex-row  ml-[10vw] font-medium text-base md:text-xl text-third">
           <div className=" hover:text-h mr-3">
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.8 }}
-              href="/"
-            >
-              about
-            </motion.a>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+              <Link href="/">about</Link>
+            </motion.div>
           </div>
           |
           <div className=" hover:text-h mx-3">
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.8 }}
-              href="/builds"
-            >
-              builds
-            </motion.a>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+              <Link href="/builds">builds</Link>
+            </motion.div>
           </div>
           |
           <div className=" hover:text-h mx-3">
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.8 }}
-              href="/writings"
-            >
-              writings
-            </motion.a>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+              <Link href="/writings">writings</Link>
+            </motion.div>
           </div>
         </div>
         <div className="absolute mt-[4rem] ml-[10vw] text-sm md:text-base">
@@ -56,5 +45,4 @@ const Home: NextPage = () => {
     </>
   );
 };
-
 export default Home;
