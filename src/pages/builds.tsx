@@ -21,21 +21,33 @@ const Builds: NextPage = () => {
         </div>
         <div className="absolute flex flex-row  ml-[10vw] font-medium text-base md:text-xl text-third">
           <div className=" hover:text-h mr-3">
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-              <Link href="/">about</Link>
-            </motion.div>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              href="/"
+            >
+              about
+            </motion.a>
           </div>
           |
           <div className=" hover:text-h mx-3">
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-              <Link href="/builds">builds</Link>
-            </motion.div>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              href="/builds"
+            >
+              builds
+            </motion.a>
           </div>
           |
           <div className=" hover:text-h mx-3">
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-              <Link href="/writings">writings</Link>
-            </motion.div>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              href="/writings"
+            >
+              writings
+            </motion.a>
           </div>
         </div>
         <div className="absolute mt-[4rem] ml-[10vw] text-sm md:text-base ">
