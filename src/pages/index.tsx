@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import sp from "../img/sp.png";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
