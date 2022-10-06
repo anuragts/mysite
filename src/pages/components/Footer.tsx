@@ -4,10 +4,7 @@ import { motion } from "framer-motion";
 const Footer: NextPage = () => {
   return (
     <>
-      <motion.div
-  initial={{ opacity: 0, scale: 0.5 }}
-  animate={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.5 }} className=" ml-[10vw] md:ml-[30vw] mb-[5rem] ">
+      <div className=" ml-[10vw] md:ml-[30vw] mb-[5rem] ">
         <div className="mb-[2rem] flex flex-row ">
           <motion.a
             whileHover={{ scale: 1.2 }}
@@ -42,10 +39,10 @@ const Footer: NextPage = () => {
             <FiSun className="iniline  text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
           </motion.a>
         </div>
-        <div className="text-[#434343] text-sm md:text-base">
+        <div className="text-[#434343] text-sm md:text-base hover:text-[#a5a5a5]">
           build using nextjs and tailwind
         </div>
-      </motion.div>
+      </div>
     </>
   );
 };

@@ -16,9 +16,18 @@ const Home: NextPage = () => {
           {" "}
           <Image src={sp} alt="Space" className=" md:rounded-2xl" />
         </motion.div>
-        <div className="absolute  text-xl md:text-3xl ml-[10vw] bottom-[2vh] md:bottom-[8vh] font-bold leading-6 md:leading-8	">
-          never <br /> stop <br /> building.
-        </div>
+        <motion.div
+          drag
+          dragTransition={{ bounceStiffness: 800, bounceDamping: 10 }}
+          dragElastic={0.2}
+          dragConstraints={{ left: 0, right: 50, top: 10, bottom: 10 }}
+          whileHover={{ scale: 1.1 }}
+        >
+          <div className="absolute  text-xl md:text-3xl ml-[10vw] bottom-[2vh] md:bottom-[8vh] font-bold leading-6 md:leading-8	">
+            never <br /> stop <br /> building.
+          </div>
+        </motion.div>
+
         <div className="absolute flex flex-row  ml-[10vw] font-medium text-base md:text-xl text-third">
           <div className=" hover:text-h mr-3">
             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
