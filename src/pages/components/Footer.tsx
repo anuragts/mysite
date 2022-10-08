@@ -48,7 +48,7 @@ const Footer: NextPage = () => {
             <FiSun className="iniline  text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
           </motion.a>
         </div>
-        <div className="text-[#434343] text-sm md:text-base hover:text-[#a5a5a5]">
+        <div className="text-[#434343] text-sm md:text-base hover:text-[#a5a5a5] cursor-grab">
           build using nextjs and tailwind
         </div>
       </div>
