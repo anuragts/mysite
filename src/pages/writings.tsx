@@ -20,7 +20,7 @@ const Writings: NextPage = () => {
           drag
           dragTransition={{ bounceStiffness: 800, bounceDamping: 10 }}
           dragElastic={0.2}
-          dragConstraints={{ left: 0, right: 50, top: 10, bottom: 10 }}
+          dragConstraints={{ left: 0, right: 50, top: 10, bottom: 0 }}
           whileHover={{ scale: 1.1 }}
         >
           <div className="absolute  text-xl md:text-3xl ml-[10vw] bottom-[2vh] md:bottom-[8vh] font-bold leading-6 md:leading-8	">

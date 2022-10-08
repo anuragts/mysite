@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import { FiTwitter, FiGithub, FiMail, FiSun } from "react-icons/fi";
+import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 const Footer: NextPage = () => {
   return (
@@ -29,6 +30,14 @@ const Footer: NextPage = () => {
             className="mx-3"
           >
             <FiMail className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            href="https://www.linkedin.com/in/theanuragdev"
+            className="mx-3"
+          >
+            <FaLinkedin className="inline text-xl md:text-2xl text-[#ffffff7f] hover:text-white mb-[5px] " />{" "}
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.2 }}
