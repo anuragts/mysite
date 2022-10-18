@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from "@vercel/og";
-
 export const config = {
   runtime: "experimental-edge",
 };
@@ -22,8 +22,8 @@ export default function () {
         }}
       >
         <img
-          alt="Vercel"  
-          src="https://www.meme-arsenal.com/memes/0c10fa934c1572cf74a4ec5662464857.jpg"
+          alt="Doge"  
+          src="https://www.pngfind.com/pngs/m/690-6900252_doge-meme-png-thug-life-dog-png-transparent.png"
           style={{ margin: "0 30px" }}
         />{" "}
       </div>
