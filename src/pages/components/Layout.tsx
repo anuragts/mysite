@@ -2,7 +2,11 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import {motion} from 'framer-motion'
 
-export default function Layout({ children }: { children: any }) {
+type Props = {
+  children: React.ReactNode;
+};
+
+export default function Layout({ children }: Props) {
   return (
     <>
       <motion.div
