@@ -3,11 +3,13 @@ import Image from "next/image";
 import ocean from "../img/ocean.jpg";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { FiGithub } from "react-icons/fi";
+import { RiLinksFill } from "react-icons/ri";
 
 const Builds: NextPage = () => {
   return (
     <>
-      <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[7.5rem]">
+      <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[23.5rem]">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -47,7 +49,75 @@ const Builds: NextPage = () => {
           </div>
         </div>
         <div className="absolute mt-[4rem] ml-[10vw] text-sm md:text-base ">
-          building @ ..... ? <br />
+        <div className="mr-5">
+              <span className="text-blue-400">CodeAI</span> - Your AI pair programmer
+              <div className="my-[1rem] flex flex-row">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://github.com/Anurag30112003/codeai"
+                className="mx-3"
+              >
+                <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+              |
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://code.tfss.live/"
+                className="mx-3"
+              >
+                <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+            </div>
+            </div>
+            <div className="mr-5">
+            <span className="text-blue-400">Artwork AI</span> - Create Artwork
+            using AI in just a few clicks. <br />
+            <div className="my-[1rem] flex flex-row">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://github.com/Anurag30112003/ArtworkAI"
+                className="mx-3"
+              >
+                <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+              |
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://artworkai.tfss.live/"
+                className="mx-3"
+              >
+                <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+            </div>
+          </div>
+          <div className="mr-5">
+            <span className="text-blue-400">Stories </span> - Get Random Stories
+            in just few clicks.
+            <div className="my-[1rem] flex flex-row">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://github.com/Anurag30112003/stories"
+                className="mx-3"
+              >
+                <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+              |
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://story.tfss.live/"
+                className="mx-3"
+              >
+                <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+            </div>
+      
+          </div>
         </div>
       </div>
     </>
