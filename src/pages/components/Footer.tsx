@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import { FiTwitter, FiGithub, FiMail, FiSun } from "react-icons/fi";
+import {GiBrickWall} from 'react-icons/gi'
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 const Footer: NextPage = () => {
@@ -47,6 +48,14 @@ const Footer: NextPage = () => {
               className="mx-3"
             >
               <FiSun className="iniline  text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              href="https://wall.anuragdev.me/"
+              className="mx-3"
+            >
+              <GiBrickWall className="inline text-xl md:text-2xl text-[#ffffff7f] hover:text-white mb-[5px] " />{" "}
             </motion.a>
           </div>
           <div className="text-[#434343] text-sm md:text-base hover:text-[#a5a5a5] cursor-grab">
