@@ -22,8 +22,8 @@ export default function () {
         }}
       >
         <img
-          alt="Doge"  
-          src="https://www.pngfind.com/pngs/m/690-6900252_doge-meme-png-thug-life-dog-png-transparent.png"
+          alt=""  
+          src={""}
           style={{ margin: "0 30px" }}
         />{" "}
       </div>
