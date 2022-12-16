@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import ocean from "../img/ocean.jpg";
 import Link from "next/link";
+import blue from "../img/buildspace/blue.jpeg";
 import { motion } from "framer-motion";
 import { FiGithub } from "react-icons/fi";
 import { RiLinksFill } from "react-icons/ri";
@@ -16,7 +17,7 @@ const Builds: NextPage = () => {
           transition={{ duration: 0.5 }}
         >
           {" "}
-          <Image src={ocean} alt="Ocean" className=" md:rounded-2xl" />{" "}
+          <Image src={blue} alt="Ocean" className=" md:rounded-2xl" />{" "}
         </motion.div>
         <motion.div
           drag

@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import earth from "../img/earth.jpg";
+import red from "../img/buildspace/red.jpeg";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -14,7 +15,7 @@ const Writings: NextPage = () => {
           transition={{ duration: 0.5 }}
         >
           {" "}
-          <Image src={earth} alt="Home" className=" md:rounded-2xl" />{" "}
+          <Image src={red} alt="Home" className=" md:rounded-2xl" />{" "}
         </motion.div>
         <motion.div
           drag

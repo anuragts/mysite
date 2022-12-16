@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import sp from "../img/sp.png";
+// import sp from "../img/sp.png"; 
+import gold from "../img/buildspace/gold.jpeg";
+// import blue from "../img/buildspace/blue.jpeg";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -14,7 +16,7 @@ const Home: NextPage = () => {
           transition={{ duration: 0.5 }}
         >
           {" "}
-          <Image src={sp} alt="Space" className=" md:rounded-2xl" />
+          <Image src={gold} alt="Space" className=" md:rounded-2xl" />
         </motion.div>
         <motion.div
           drag
