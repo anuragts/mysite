@@ -23,7 +23,7 @@ export default function () {
       >
         <img
           alt=""  
-          src={""}
+          src="https://raw.githubusercontent.com/Anurag30112003/mysite/main/src/img/asto.png"
           style={{ margin: "0 30px" }}
         />{" "}
       </div>
