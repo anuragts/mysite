@@ -4,11 +4,12 @@ import earth from "../img/earth.jpg";
 import write from "../img/buildspace/write.jpeg";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { RiLinksFill } from "react-icons/ri";
 
 const Writings: NextPage = () => {
   return (
     <>
-      <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[7.5rem]">
+      <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[15.5rem]">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -48,7 +49,20 @@ const Writings: NextPage = () => {
           </div>
         </div>
         <div className="absolute mt-[4rem] ml-[10vw] text-sm md:text-base ">
-          soon....... <br />
+          <span className="text-blue-400">
+            Using Vercel Edge Functions with NextJS
+          </span>{" "}
+          - Adding Serverless Functionality to Your Next.js App with Vercel Edge
+          Functions
+          <br />
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            href="https://anurag30112003.hashnode.dev/using-vercel-edge-functions-with-nextjs"
+            className="mx-3"
+          >
+            <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+          </motion.a>
         </div>
       </div>
     </>
