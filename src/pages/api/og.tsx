@@ -19,6 +19,7 @@ export default function () {
           textAlign: "center",
           alignItems: "center",
           justifyContent: "center",
+          
         }}
       >
         <img
