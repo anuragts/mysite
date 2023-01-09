@@ -130,6 +130,7 @@ const Builds: NextPage = () => {
               >
                 <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
               </motion.a>
+              
               |
               <motion.a
                 whileHover={{ scale: 1.2 }}
