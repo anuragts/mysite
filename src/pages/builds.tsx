@@ -120,7 +120,7 @@ const Builds: NextPage = () => {
           </div>
 
           <div className="mr-5">
-            <span className="text-blue-400">SQLscape </span> - Your own SQL query writer .
+            <span className="text-blue-400">SQLscape </span> - Your own SQL query writer.
             <div className="my-[1rem] flex flex-row">
               <motion.a
                 whileHover={{ scale: 1.2 }}
