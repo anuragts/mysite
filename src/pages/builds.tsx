@@ -56,7 +56,7 @@ const Builds: NextPage = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
-                href="https://github.com/Anurag30112003/codeai"
+                href="https://github.com/anuragts/codeai"
                 className="mx-3"
               >
                 <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
@@ -79,7 +79,7 @@ const Builds: NextPage = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
-                href="https://github.com/Anurag30112003/ArtworkAI"
+                href="https://github.com/anuragts/ArtworkAI"
                 className="mx-3"
               >
                 <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
@@ -102,7 +102,7 @@ const Builds: NextPage = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
-                href="https://github.com/Anurag30112003/stories"
+                href="https://github.com/anuragts/stories"
                 className="mx-3"
               >
                 <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
@@ -125,7 +125,7 @@ const Builds: NextPage = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
-                href="https://github.com/Anurag30112003/sqlscape"
+                href="https://github.com/anuragts/sqlscape"
                 className="mx-3"
               >
                 <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}

@@ -20,7 +20,7 @@ const Footer: NextPage = () => {
             <motion.a
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
-              href="https://github.com/Anurag30112003"
+              href="https://github.com/anuragts"
               className="mx-3"
             >
               <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
