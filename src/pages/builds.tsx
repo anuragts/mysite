@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import ocean from "../img/ocean.jpg";
 import Link from "next/link";
 import blue from "../img/buildspace/blue.jpeg";
 import { motion } from "framer-motion";
@@ -10,7 +9,7 @@ import { RiLinksFill } from "react-icons/ri";
 const Builds: NextPage = () => {
   return (
     <>
-      <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[28.5rem]">
+      <div className="block mx-auto mt-[0] md:mt-[5rem] w-[100%] md:w-[60%] relative mb-[31.5rem]">
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -50,6 +49,54 @@ const Builds: NextPage = () => {
           </div>
         </div>
         <div className="absolute mt-[4rem] ml-[10vw] text-sm md:text-base ">
+        {/*  */}
+        <div className="mr-5">
+            <span className="text-blue-400">ReadME-AI </span> - Make your readme files standout using AI.
+            <div className="my-[1rem] flex flex-row">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://github.com/anuragts/readmeAI"
+                className="mx-3"
+              >
+                <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+              
+              |
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://readmeai-production.up.railway.app/"
+                className="mx-3"
+              >
+                <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+            </div>
+          </div>
+        <div className="mr-5">
+            <span className="text-blue-400">SQLscape </span> - Your own SQL query writer.
+            <div className="my-[1rem] flex flex-row">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://github.com/anuragts/sqlscape"
+                className="mx-3"
+              >
+                <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+              
+              |
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                href="https://sql.proooj.co/"
+                className="mx-3"
+              >
+                <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
+              </motion.a>
+            </div>
+          </div>
+
         <div className="mr-5">
               <span className="text-blue-400">CodeAI</span> - Your AI pair programmer
               <div className="my-[1rem] flex flex-row">
@@ -112,30 +159,6 @@ const Builds: NextPage = () => {
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
                 href="https://story.tfss.live/"
-                className="mx-3"
-              >
-                <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
-              </motion.a>
-            </div>
-          </div>
-
-          <div className="mr-5">
-            <span className="text-blue-400">SQLscape </span> - Your own SQL query writer.
-            <div className="my-[1rem] flex flex-row">
-              <motion.a
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.8 }}
-                href="https://github.com/anuragts/sqlscape"
-                className="mx-3"
-              >
-                <FiGithub className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
-              </motion.a>
-              
-              |
-              <motion.a
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.8 }}
-                href="https://sql.proooj.co/"
                 className="mx-3"
               >
                 <RiLinksFill className="iniline text-xl md:text-2xl text-[#ffffff7f] hover:text-white " />{" "}
